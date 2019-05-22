@@ -6,7 +6,7 @@ export default class UserBoard extends Component {
   render() {
     return (
     <div>
-        <h3>User Board</h3>
+        <h1>User Board</h1>
         <User content="Makis" />
         <User content="Demi" />
         <User content="Tasos" />

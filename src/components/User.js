@@ -1,11 +1,21 @@
-import React, {Component} from 'react';
-import UserBoard from './components/UserBoard';
+import React, { Component } from 'react'
 
-export default class User extends Component{
+export default class User extends Component {
 
-  render(){
-    return(
-      <UserBoard name = "Alice" name1 = "John" name2 = "Fooo"/>
-    );
-  }
+    state = { active: true }
+    
+    toggle = () => {
+        this.setState({
+          active: !this.state.active
+        })
+    }
+
+    render() {
+        return (
+            <div>
+                <p>User: <b>{ this.props.content }</b></p>
+                <p>{ this.props.content } is <b>{ this.state.active ? '' : `not` } </b>present</p> 
+                <button onClick={this.toggle}>Toggle</button>
+            </div>)
+    }
 }

@@ -1,9 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'
+import logo from './logo.svg'
 import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
-import User from './components/User'
 import UserBoard from './components/UserBoard'
 
 function App() {
@@ -27,7 +26,7 @@ function App() {
       <main>
         <Title content="Simple title" />
         <LightSwitch />
-        <User />
+        <UserBoard />
       </main>
     </div>
   );

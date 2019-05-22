@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>
-          Welcome to React
+          Welcome to Codaisseur
         </p>
         <img src={logo} className="App-logo" alt="logo" />
         <p>

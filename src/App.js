@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
+import LightSwitch from './components/LightSwitch'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
 
       <main>
         <Title content="Simple title" />
+        <LightSwitch />
       </main>
     </div>
   );

@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react';
+import UserBoard from './components/UserBoard';
 
-export default class User extends Component {
-  
-  render() {
-    const name = 'Makis'
-    return (<div>
-      <p>User: <b>{ name }</b></p>
-    </div>)
+export default class User extends Component{
+
+  render(){
+    return(
+      <UserBoard name = "Alice" name1 = "John" name2 = "Fooo"/>
+    );
   }
 }

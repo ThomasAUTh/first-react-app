@@ -4,6 +4,7 @@ import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
 import User from './components/User'
+import UserBoard from './components/UserBoard'
 
 function App() {
   return (

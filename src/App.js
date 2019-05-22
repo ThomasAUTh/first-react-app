@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
+import User from './components/User'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <main>
         <Title content="Simple title" />
         <LightSwitch />
+        <User />
       </main>
     </div>
   );

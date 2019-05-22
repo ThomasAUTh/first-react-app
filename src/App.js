@@ -22,7 +22,7 @@ function App() {
       </header>
 
       <main>
-        <Title />
+        <Title content="Simple title" />
       </main>
     </div>
   );

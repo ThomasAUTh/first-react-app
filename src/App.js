@@ -23,6 +23,11 @@ function App() {
           Learn React
         </a>
       </header>
+      
+      <main>
+        <Title />
+      </main>
+
     </div>
   );
 }

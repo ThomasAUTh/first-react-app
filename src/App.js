@@ -4,6 +4,7 @@ import './App.css';
 import Title from './components/Title'
 import LightSwitch from './components/LightSwitch'
 import UserBoard from './components/UserBoard'
+import Clock from './components/Clock'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Title content="Simple title" />
         <LightSwitch />
         <UserBoard />
+        <Clock />
       </main>
     </div>
   );
